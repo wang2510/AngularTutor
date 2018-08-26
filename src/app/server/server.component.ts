@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Student} from '../../shared/student.model';
 
 @Component({
   // select: '[app-server]',
@@ -12,6 +13,9 @@ export class ServerComponent {
     counter = 0;
     isLogin = false;
     userName: string;
+    students: Student[] = [new Student('Bill Gates', 'Computer Science'),
+                           new Student('Steve Jobs', 'Computer Science'),
+                           new Student('Elon Musk', 'Computer Science')];
 
     getServerStatus() {
       return this.serverStatus;
