@@ -1,0 +1,26 @@
+.flexContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 1024px;
+  height: 300px;
+  border: 5px green solid;
+}
+
+.flexContainerAuto {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  border: 5px green solid;
+}
+
+.redBox {
+  border: 5px red solid;
+  width: 200px;
+  height: 200px;
+}
+
+.redBorder {
+  border: 5px red solid;
+}
+
