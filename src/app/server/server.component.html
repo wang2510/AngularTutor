@@ -1,0 +1,50 @@
+<h4>This is a Component Example. </h4>
+<p> Server with ID {{ serverId }}  is {{ serverStatus }} </p>
+<p> {{ 'Server' }} with ID {{ serverId }}  is {{ serverStatus }} </p>
+<p> {{ 'Server' }} with ID {{ serverId }}  is {{ getServerStatus() }} </p>
+
+<hr>
+<h4>This is a counter</h4>
+<p> {{ counter }} </p>
+<button class="btn btn-primary" (click)="counterPlus()" style="margin-right: 10px"> Add One</button>
+<button class="btn btn-primary" (click)="resetCounter()"> Reset Counter</button>
+
+<hr>
+<h4>This is a input Box with Event Binding</h4>
+<div>
+  <span>User Name: </span>
+  <input type="text" (input)="onUpdateUserName($event)">
+</div>
+
+<div>
+  <span>Password: </span>
+  <input type="password">
+</div>
+<div *ngIf="isLogin" class="informBoxBoarder"> You Loggedin as {{ userName }} </div>
+<button class="btn btn-light" (click)="login()" style="margin-right: 10px"> Login </button>
+<button class="btn btn-light" (click)="signOut()"> Sign Out </button>
+
+<hr>
+<h4>This is a input Box with Two Way Data Binding</h4>
+<div>
+  <span>User Name: </span>
+  <input type="text" [(ngModel)]="userName">
+</div>
+
+<div>
+  <span>Password: </span>
+  <input type="password">
+</div>
+<div *ngIf="isLogin" class="informBoxBoarder"> You Loggedin as {{ userName }} </div>
+<button class="btn btn-light" (click)="login()" style="margin-right: 10px"> Login </button>
+<button class="btn btn-light" (click)="signOut()"> Sign Out </button>
+
+<hr>
+<h4>This is a StudentList managed by ngfor loop</h4>
+<div *ngFor="let student of students">
+  <div style="margin-bottom: 2px;border-left: solid 2px; border-right: solid 2px; border-bottom: solid 2px; border-top: solid 2px; display: flex; justify-content: space-between">
+    <div><span style="color: cornflowerblue; margin-right: 5px">Student Name: </span> <span> {{ student.name }}</span></div>
+
+    <div><span style="color: cornflowerblue; margin-right: 5px;">Student Major: </span> <span>{{ student.major }}</span></div>
+  </div>
+</div>
