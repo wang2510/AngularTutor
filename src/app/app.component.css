@@ -1,0 +1,62 @@
+.background{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: limegreen;
+}
+
+.white{
+  position: absolute;
+  width: 340px;
+  height: 300px;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin:auto;
+  background: white;
+  border: 1.5px dimgrey solid;
+}
+
+.box{
+  position: relative;
+  width: 240px;
+  height: 50px;
+  top:50px;
+  left:50px;
+}
+
+.register {
+  position: relative;
+  top: 55px;
+  left: 68px;
+  color: lightgrey;
+}
+
+.create {
+  color: lawngreen;
+  background: none;
+  border:none;
+  font-size:small;
+}
+
+.words{
+  height: 50px;
+  font-size:12pt;
+  top:10px;
+  left:8px;
+  width:240px;
+  background:lightgrey;
+  color:grey;
+  border:none;
+  padding-left:10px;
+}
+
+.log{
+  height: 50px;
+  width:240px;
+  text-align: center;
+  color: lightgreen;
+  background:limegreen;
+  border:none;
+}
