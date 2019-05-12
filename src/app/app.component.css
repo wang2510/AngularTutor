@@ -1,0 +1,77 @@
+*{
+
+  box-sizing: border-box;
+}
+.container {
+  position: relative;
+  border: 1px solid lightseagreen;
+}
+nav {
+  display: inline-block;
+  vertical-align:top;
+  width:25%;
+  border: 1px solid green;
+}
+section{
+
+  border: 1px solid purple;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  background-color: white;
+  width: 100%;
+}
+body {
+  margin-bottom: 120px;
+}
+.column{
+  display: inline-block;
+  vertical-align: top;
+  width: 75%;
+  border: 1px solid orange;
+}
+
+
+
+.loginBox{
+  position: relative;
+  width: 800px;
+  margin: 10px 20px auto;
+  border: solid;
+  border-width: 100px 200px;
+  border-color: limegreen;
+  padding: 30px;
+  background:white;
+
+}
+
+
+input[type=text]{
+  width:100%;
+  position: relative;
+  margin: auto;
+
+  background: lightgrey;
+  text: black;
+  text-align:left;
+  border: 10px solid white;
+  padding: 12px;
+
+}
+input[type=button]{
+  width: 100%;
+  position: relative;
+  margin: auto;
+  background-color: green;
+  color: white;
+  padding: 12px;
+  border: 10px solid white;
+  text-align: center;
+  cursor: pointer;
+}
+a{
+  color:lightgreen;
+}
