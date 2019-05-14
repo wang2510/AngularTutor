@@ -6,4 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+<<<<<<< secondDemoDataBinding
+=======
+  title = '九章全栈基础课!';
+>>>>>>> master
 }
