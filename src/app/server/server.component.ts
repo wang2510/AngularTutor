@@ -39,6 +39,7 @@ export class ServerComponent {
 
     // Event Binding
     onUpdateUserName(event: Event) {
+      console.log(event);
       this.userName = (<HTMLInputElement>event.target).value;
     }
 }
