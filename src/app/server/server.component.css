@@ -1,0 +1,11 @@
+.flex1{
+  display: flex;
+  justify-content: space-around;
+  border: yellow solid;
+}
+
+.box1{
+  width: 300px;
+  height: 100px;
+  border: 10px green solid;
+}

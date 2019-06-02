@@ -1,0 +1,32 @@
+.container{
+  position: relative;
+  border: 5px green solid;
+  padding: 0px;
+}
+
+nav{
+  position: absolute;
+  left: 0px;
+  width: 200px;
+  border: 3px red solid;
+}
+
+section{
+  margin-left: 200px;
+  padding: 20px;
+  border: 3px red solid;
+}
+
+footer{
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  height: 70px;
+  background-color: white;
+  width: 100%;
+}
+
+body{
+  margin-bottom: 120px;
+}
+

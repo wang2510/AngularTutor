@@ -1,0 +1,26 @@
+.container{
+  position: relative;
+  border: 5px green solid;
+  padding: 0px;
+}
+
+nav{
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  border: 5px red solid;
+}
+
+section{
+  margin-left: 0px;
+  padding: 20px;
+  border: 3px red solid;
+}
+
+.column{
+  display: inline-block;
+  vertical-align: top;
+  width: 75%;
+}
+
+
