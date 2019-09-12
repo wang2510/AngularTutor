@@ -1,0 +1,20 @@
+.background{
+  background-color: blue;
+  width:100%;
+
+
+}
+.title{
+  color:white;
+  display:flex;
+  justify-content: center;
+
+
+}
+.box{
+  width:100px;
+  height:100px;
+
+  margin:20px;
+}
+
