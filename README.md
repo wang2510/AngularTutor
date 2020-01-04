@@ -1,6 +1,9 @@
+# CopyRight
+This repo is using for educational purpose only and the repo owner holds all rights. DO NOT use it for any 3-party commercial purpose.
+
 # AngularTutor
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5. and used for tutoring purpose.
 
 ## Development server
 
